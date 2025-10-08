@@ -7,6 +7,9 @@ import Bienvenida from './components/Bienvenida.jsx'
 import Mensaje from './components/Mensaje.jsx'
 import Lista from './components/Lista.jsx'
 import Boton from './components/Boton.jsx'
+import PeticionApi from './components/PeticionApi.jsx'
+import ApiAsync from './components/ApiAsync.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,5 +18,7 @@ createRoot(document.getElementById('root')).render(
     <Mensaje />
     <Lista />
     <Boton />
+    <PeticionApi />
+    <ApiAsync />
   </StrictMode>,
 )
