@@ -1,0 +1,19 @@
+.boton a {
+      padding: 5px;
+      border: 8px outset blueviolet;
+      border-radius: 10px;
+      background-color: rgb(108, 48, 165);
+      color: white;
+      font-weight: bold;
+      font-variant: small-caps;
+      /* font-size: 2em; */
+      color: white;
+      text-decoration: none;
+  }
+  .boton a:active {
+      color: greenyellow;
+      font-size: 1.5em;
+  }
+  .boton a:hover {
+      border: 8px inset blueviolet;
+  }

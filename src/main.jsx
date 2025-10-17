@@ -14,11 +14,12 @@ import ApiAsync from './components/ApiAsync.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
-    <Bienvenida />
+    {/* <Bienvenida />
     <Mensaje />
     <Lista />
     <Boton />
     <PeticionApi />
-    <ApiAsync />
+    <ApiAsync /> */}
+    <App />
   </StrictMode>,
 )

@@ -7,7 +7,7 @@ function PeticionApi() {
     .then(json => console.log(json))}
 
   return(
-    <h2 onClick={promise}>Bichito bonito</h2>
+    <h2 onClick={promise}>Bichito Bonito</h2>
   )
 }
 

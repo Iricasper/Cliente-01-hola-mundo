@@ -9,5 +9,5 @@ async function ApiAsync() {
 }
 
 export default function App() {
-  return <h3 onClick={ApiAsync}>Bichito Bonito 2</h3>
+  return <h2 onClick={ApiAsync}>Bichito Bonito 2</h2>
 }
