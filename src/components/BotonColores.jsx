@@ -1,18 +1,27 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 
 function BotonColores() {
   const [coloresDeg, setColoresDeg] = useState(0)
+  const [encendido, setEncendido] = useState(false)
   let getRotatedIdiot = () => {
-    setColoresDeg(coloresDeg + 1)
-    if (i > 359) {
-      setColoresDeg(0)
-    }
-    document.body.style.filter = `hue-rotate(${coloresDeg}deg)`
+    setTimeout(() => {
+      setColoresDeg(coloresDeg + 1)
+      if (coloresDeg > 359) {
+        setColoresDeg(0)
+      }
+      document.body.style.backgroundColor = `red`
+      document.body.style.filter = `hue-rotate(${coloresDeg}deg)`
+    }, 5)
+    
   }
-  setInterval(getRotatedIdiot, 10)
+  useEffect(() => {
+    encendido && getRotatedIdiot()
+  }, [coloresDeg, encendido])
   return (
     <div>
-      <button onClick={colores}>Pulsa aquí para sufrir epilepsia</button>
+      <button onClick={() => setEncendido(!encendido)}>
+        Pulsa aquí para sufrir epilepsia
+      </button>
     </div>
   )
 }

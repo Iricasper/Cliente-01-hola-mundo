@@ -19,6 +19,8 @@ import Contador2 from "./components/Contador2.jsx"
 import FormularioLogin from "./components/FormularioLogin.jsx"
 import Interruptor from "./components/Interruptor.jsx"
 import BotonColores from "./components/BotonColores.jsx"
+import FormCaracteres from "./components/FormCaracteres.jsx"
+import FormDatosPersona from "./components/FormDatosPersona.jsx"
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -40,5 +42,7 @@ createRoot(document.getElementById("root")).render(
     <FormularioLogin />
     <Interruptor />
     <BotonColores />
+    <FormCaracteres />
+    <FormDatosPersona />
   </StrictMode>
 )
