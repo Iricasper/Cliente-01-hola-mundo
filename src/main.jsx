@@ -21,6 +21,8 @@ import Interruptor from "./components/Interruptor.jsx"
 import BotonColores from "./components/BotonColores.jsx"
 import FormCaracteres from "./components/FormCaracteres.jsx"
 import FormDatosPersona from "./components/FormDatosPersona.jsx"
+import BotonComparado from "./components/BotonComparado.jsx"
+import InputOnChange from "./components/InputOnChange.jsx"
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -44,5 +46,7 @@ createRoot(document.getElementById("root")).render(
     <BotonColores />
     <FormCaracteres />
     <FormDatosPersona />
+    <BotonComparado />
+    <InputOnChange />
   </StrictMode>
 )

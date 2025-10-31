@@ -12,7 +12,6 @@ function BotonColores() {
       document.body.style.backgroundColor = `red`
       document.body.style.filter = `hue-rotate(${coloresDeg}deg)`
     }, 5)
-    
   }
   useEffect(() => {
     encendido && getRotatedIdiot()
