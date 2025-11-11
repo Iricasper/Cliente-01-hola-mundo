@@ -23,20 +23,26 @@ import FormCaracteres from "./components/FormCaracteres.jsx"
 import FormDatosPersona from "./components/FormDatosPersona.jsx"
 import BotonComparado from "./components/BotonComparado.jsx"
 import InputOnChange from "./components/InputOnChange.jsx"
+import Saludo from "./components/Saludo.jsx"
+import BotonToggle from "./components/BotonToggle.jsx"
+import UseEffectEjemplos from "./components/UseEffectEjemplos.jsx"
+import App3 from "./components/App3.jsx"
+import Welcome from "./components/Welcome.jsx"
+import App4 from "./components/App4.jsx"
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    {/* <Header /> */}
-    {/* <Bienvenida />
+    {/*<Header />
+    <Bienvenida />
     <Mensaje />
     <Lista />
     <Boton />
     <PeticionApi />
-    <ApiAsync /> */}
-    {/* <Ej2a /> */}
-    {/* <BotonAccion color="rojo" texto="Botón 1" />
+    <ApiAsync />
+    <Ej2a />
+    <BotonAccion color="rojo" texto="Botón 1" />
     <BotonAccion color="verde" texto="Botón 2" />
-    <BotonAccion color="azul" texto="Botón 3" /> */}
+    <BotonAccion color="azul" texto="Botón 3" />
     <Producto nombre="Mondongo" precio={12} />
     <BotonContador />
     <CajaTexto textoDefault="Ejemplo" />
@@ -48,5 +54,9 @@ createRoot(document.getElementById("root")).render(
     <FormDatosPersona />
     <BotonComparado />
     <InputOnChange />
+    <Saludo />
+    <BotonToggle />
+    <App3 />*/}
+    <App4 />
   </StrictMode>
 )
