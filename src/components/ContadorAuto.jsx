@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 
-const ContadorAuto = () => {
+function ContadorAuto() {
   const [segundos, setSegundos] = useState(0)
   const [contando, toggleContando] = useState(true)
 
@@ -14,13 +14,10 @@ const ContadorAuto = () => {
     }
   }, [])
 
-  useEffect(() => {
-    clearInterval()
-  }, [contando])
-
   return (
     <div>
-      <button onClick={toggleContando(false)}>Pausar</button>
+      <p>{segundos}</p>
+      <button onClick={toggleContando(!contando)}>Pausar</button>
     </div>
   )
 }

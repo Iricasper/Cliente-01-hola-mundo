@@ -31,32 +31,7 @@ import Welcome from "./components/Welcome.jsx"
 import App4 from "./components/App4.jsx"
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    {/*<Header />
-    <Bienvenida />
-    <Mensaje />
-    <Lista />
-    <Boton />
-    <PeticionApi />
-    <ApiAsync />
-    <Ej2a />
-    <BotonAccion color="rojo" texto="Botón 1" />
-    <BotonAccion color="verde" texto="Botón 2" />
-    <BotonAccion color="azul" texto="Botón 3" />
-    <Producto nombre="Mondongo" precio={12} />
-    <BotonContador />
-    <CajaTexto textoDefault="Ejemplo" />
-    <Contador2 />
-    <FormularioLogin />
-    <Interruptor />
-    <BotonColores />
-    <FormCaracteres />
-    <FormDatosPersona />
-    <BotonComparado />
-    <InputOnChange />
-    <Saludo />
-    <BotonToggle />
-    <App3 />*/}
-    <App4 />
-  </StrictMode>
+  // <StrictMode>
+  <App4 />
+  // </StrictMode>
 )
